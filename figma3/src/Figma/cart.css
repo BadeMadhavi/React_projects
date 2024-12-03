@@ -1,0 +1,107 @@
+/* Cart Container */
+.cart-container {
+  padding: 20px;
+  width: 340px; /* Fixed width to match the container */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  box-sizing: border-box; /* Ensure padding is included in the height */
+  position: sticky; /* Make the container stick to the top */
+  top: 0; /* Stick to the top of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Cart Title */
+.cart-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: -24px; /* Adjusted margin for better alignment */
+}
+
+/* Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  margin-top: -20px; /* Ensure items fill the width */
+}
+
+/* Item Image */
+.item-image {
+  width: 80px; /* Adjusted width */
+  height: 80px; /* Adjusted height */
+  border-radius: 8px;
+  margin-right: 15px;
+  object-fit: cover;
+ /* Ensure image fits within the container */
+}
+
+/* Item Details */
+.item-details {
+  flex-grow: 1; /* Allow the details to take remaining space */
+}
+
+/* Item Price */
+.item-price {
+  color: #e94b35;
+  font-weight: bold;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  background-color: #e94b35;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 18px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Summary Section */
+.summary {
+  margin-top: auto; /* Push summary to the bottom */
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.summary p {
+  margin: 5px 0;
+}
+
+.summary strong {
+  margin-right: 120px; /* Adjusted margin for better spacing */
+}
+
+/* Checkout Button */
+.checkout-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e94b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px; /* Adjusted margin */
+}

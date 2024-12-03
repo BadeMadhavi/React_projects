@@ -1,0 +1,92 @@
+.category-container {
+  width: 100%;
+  max-width: 340px;
+  height: 700px; /* Set a fixed height for the container */
+  margin: auto;
+  padding: 20px;
+  background-color: #fff5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .category-title {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-top: -200px;
+    margin-right: 170px;
+  }
+  
+  .category-highlight {
+    color: #ff7043;
+  }
+  
+  .category-subtitle {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-sort-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .category-popular {
+    color: #ff7043;
+    cursor: pointer;
+  }
+  
+  .category-pizza-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .category-pizza-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-pizza-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category-price {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .category-pizza-name {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .category-description {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+  
+  .category-rating {
+    font-size: 14px;
+    color: #ff7043;
+  }
+  .category-container .pizzacorner{
+    margin-left: 80px;
+    margin-top: -20px;
+  }

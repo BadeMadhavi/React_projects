@@ -1,0 +1,95 @@
+.forgot-password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 95vh;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forgot-password-header {
+    font-family: 'Sofia Pro';
+    font-size: 24px;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  .forgot-password-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 190px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .submit-btn {
+    background-color: #FE724C;
+    color: #fff;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .success-message p {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 14px;
+    color: #FE724C;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 350px;
+    margin-left:150px ;
+    width: 300px;
+    margin-top: -30px;
+  }
+ 
+  .forgot-password-container  .back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 590px;
+    cursor: pointer;
+  }
+  
+  .forgot-password-header,
+  .form-group p {
+    text-align: center;
+   
+  }
+  
+  .forgot-password-form .form-group p {
+    font-family: 'Sofia Pro';
+    font-size: 14px;
+    color: #9796A1;
+    margin-top: 10px;
+  }
+  

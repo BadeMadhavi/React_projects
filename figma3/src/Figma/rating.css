@@ -1,0 +1,51 @@
+.rating-container {
+    width: 340px;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .rating-container .top-image{
+    margin-top: 20px;
+  }
+  .rating-container .stars span {
+    font-size: 50px; 
+    cursor: pointer;
+    color: #ddd; 
+  }
+  
+  .rating-container .stars .active {
+    color: gold; 
+  }
+  
+  .rating-container .submit-button {
+    background-color: #FE724C;
+    color: white;
+    padding: 12px 20px; /* Increased padding for better touch area */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%; /* Make the button full width */
+    margin-top: 10px;
+    margin-bottom: 25px; /* Reduced margin-top for better spacing */
+  }
+  
+  .rating-container .submit-button:hover {
+    background-color: #f8552b;
+  }
+  
+  .rating-container .review-box {
+    width: 100%; /* Make review box full width within its container */
+    height: 80px; /* Reduced height for better layout */
+    margin-top: 10px; /* Adjusted margin-top */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: none; /* Prevent resizing */
+  }
+  

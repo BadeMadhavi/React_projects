@@ -1,0 +1,67 @@
+.restuarant-container {
+    width: 340px;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family:  Sofia Pro;
+  }
+  
+  .restuarant-container .image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 130px;
+  }
+  
+  .restuarant-container .pizza-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .restuarant-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .restuarant-container .stars {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .restuarant-container
+  .review-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    height: 80px;
+  }
+  
+  .restuarant-container .submit-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 30px;
+  
+  }
+  
+
+  

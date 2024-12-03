@@ -1,0 +1,145 @@
+/* Ensuring the registration container takes up the full viewport height */
+
+.registration-container {
+  position: relative; /* Required for positioning corner elements */
+  max-width: 340px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Sofia Pro", sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  height: 100vh; /* Full height of the viewport */
+  text-align: center;
+  z-index: 1; /* Ensure this stays above the corner elements */
+  overflow: hidden; /* Prevent corners from overflowing the container */
+}
+
+
+/* Submit Button Styling */
+.registration-container .submit-button {
+  width: 50%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #FE724C;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Back Arrow Styling */
+.registration-container .back-arrow {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  font-size: 24px;
+  background: none;
+  border: 1px solid rgb(179, 172, 172);
+  cursor: pointer;
+  color: #333;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Styling for the headings */
+.registration-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: -200px;
+}
+
+.registration-container p {
+  font-size: 16px;
+  color: #666;
+}
+
+.registration-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Keeping country and phone inputs on the same line */
+.registration-container .country-phone-input {
+  display: flex;
+  width: 100%;  /* Ensure it takes up the full width of the form */
+  align-items: center;
+  justify-content: center;  /* Align inputs horizontally in the center */
+}
+
+.registration-container .country-code-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  flex-shrink: 0;
+  background-color: #FE724C;
+  width: 40%;  /* Adjust width to fit the space */
+}
+
+.registration-container .form-input {
+  width: 60%;  /* Make sure the phone input takes up the rest of the space */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button styling */
+.registration-container .submit-button {
+  width: 50%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #FE724C;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.circle{
+  background-image: url('C:/Users/dell/figma3/public/Ellipse 128.png'); /* Update path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 0 0 150px;
+  z-index: -1;
+  width: 150px; /* Adjust size as needed */
+  height: 130px;
+  margin-left: 200px;
+  margin-top: -340px;
+}
+.circle1{
+  background-image: url('C:\Users\dell\figma3\public\Ellipse 127.png'); /* Update path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px 90px 80px 90px; 
+  z-index: -1;
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  margin-left: 10px;
+  margin-top: -200px;
+}
+.circle2{
+  background-image: url('C:\Users\dell\figma3\public\Ellipse 126.png'); /* Update path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 50px; /* Adjust size as needed */
+  height: 130px;
+  margin-top: -120px;
+  margin-right: 60px;
+
+}

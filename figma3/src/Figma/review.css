@@ -1,0 +1,84 @@
+.review-container {
+    width: 340px;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     /* Ensure everything starts from top */
+  }
+  
+  .mask {
+    display: flex;
+  }
+  
+  .mask h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 80px;
+
+  }
+ .boy {
+    width: 50px; 
+    height: 50px;
+    margin-top: 20px;
+  
+  }
+  
+  .review-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */
+    margin-bottom: 20px;
+    display: block; /* Ensure the input is displayed properly */
+  }
+  
+  .review-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .review-item .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .review-item .review-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular image */
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .review-item .review-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-item .review-content h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .review-item .review-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777; /* Gray color for the date */
+  }
+  
+  .review-item .review-text p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

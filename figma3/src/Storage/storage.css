@@ -1,0 +1,80 @@
+/* General container styling */
+.user {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Input and button container styling */
+.id {
+    margin-top: 20px;
+}
+
+/* Input fields styling */
+.user input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.user input:focus {
+    border-color: #ce165c;
+    box-shadow: 0 4px 10px rgba(57, 73, 171, 0.2);
+}
+
+/* Buttons styling */
+.user button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #d40e92;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.user button:hover {
+    background: #a30ca8;
+    transform: scale(1.05);
+}
+
+.user button:active {
+    background: #d611ac;
+}
+
+/* Clear button styling */
+.user .values button {
+    background: #ef5350;
+}
+
+.user .values button:hover {
+    background: #d32f2f;
+}
+
+/* Displaying saved values */
+.values {
+    margin-top: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.values p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}

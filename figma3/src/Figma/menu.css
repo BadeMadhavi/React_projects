@@ -1,0 +1,45 @@
+/* Styling for the menu container */
+.menu-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Sofia Pro", sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centers content vertically */
+    height: 90vh;  /* Make the container take up full height of the viewport */
+    text-align: center;
+    position: relative; /* This is important for the absolute positioning of the logout button */
+  }
+  
+  /* Styling for the logout button */
+  .menu-container .logout-button {
+    display: flex;
+    align-items: center;
+    background-color: #FE724C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Make the button's position absolute */
+    bottom: 20px; /* Position it 20px from the bottom */
+    left: 20px; /* Position it 20px from the left */
+  }
+  
+
+  .logout-button svg {
+    margin-right: 10px;
+    
+  }
+  
+  /* Optional: Style for hover effect */
+  .logout-button:hover {
+    background-color: #e65c39;
+  }
+  
